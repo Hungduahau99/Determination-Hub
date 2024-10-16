@@ -2500,7 +2500,7 @@ ImageButton.Parent = ScreenGui
 ImageButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 ImageButton.BorderSizePixel = 0
 ImageButton.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
-ImageButton.Size = UDim2.new(0, 90, 0, 90)
+ImageButton.Size = UDim2.new(0, 60, 0, 60)
 ImageButton.Draggable = true
 ImageButton.Image = "http://www.roblox.com/asset/?id=126715553782843"
 ImageButton.MouseButton1Down:connect(function()
@@ -2536,7 +2536,7 @@ local listfastattack = {'Normal Attack','Fast Attack','Super Fast Attack'}
 	elseif _G.FastAttackFaiFao_Mode == "Normal Attack" then
 		_G.Fast_Delay = 0.15
 	elseif _G.FastAttackFaiFao_Mode == "×5 Super Fast Attack" then
-		_G.Fast_Delay = 0.004
+		_G.Fast_Delay = 0.0005
 	end
 end)
 
